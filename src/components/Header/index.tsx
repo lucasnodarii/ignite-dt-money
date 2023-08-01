@@ -1,5 +1,5 @@
 import igniteLogo from '../../assets/logo-ignite.svg'
-import { HeaderContainer, HeaderContent } from './styles'
+import { HeaderContainer, HeaderContent, NewTransactionButton } from './styles'
 
 export function Header() {
   return (
@@ -7,7 +7,7 @@ export function Header() {
       <HeaderContent>
         <img src={igniteLogo} alt="" />
 
-        <button>Nova transação</button>
+        <NewTransactionButton>Nova transação</NewTransactionButton>
       </HeaderContent>
     </HeaderContainer>
   )

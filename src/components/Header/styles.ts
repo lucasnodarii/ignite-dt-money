@@ -13,14 +13,19 @@ export const HeaderContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+`
+export const NewTransactionButton = styled.button`
+  height: 50px;
+  border: 0;
+  background: ${(props) => props.theme['green-500']};
+  color: ${(props) => props.theme.white};
+  font-weight: bold;
+  padding: 0 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
 
-  button {
-    border: none;
-    border-radius: 6px;
-    background: ${(props) => props.theme['green-500']};
-    padding: 0.75rem 1.25rem;
-    color: ${(props) => props.theme.white};
-    line-height: 1.6;
-    font-weight: 700;
+  &:hover {
+    background: ${(props) => props.theme['green-700']};
+    transition: background-color 0.2s;
   }
 `
