@@ -6,7 +6,7 @@
       "type": "income",
       "category": "Venda",
       "price": 14000,
-      "createdAt": "2023-08-02T12:17:09.591Z"
+      "createdAt": "2023-07-02T12:17:09.591Z"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 60,
-      "createdAt": "2023-08-01T12:17:09.591Z"
+      "createdAt": "2023-07-31T12:17:09.591Z"
     },
     {
       "id": 3,
@@ -22,7 +22,39 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 100,
-      "createdAt": "2023-08-03T12:17:09.591Z"
+      "createdAt": "2023-07-30T12:17:09.591Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-07-30T17:44:53.634Z",
+      "id": 4
+    },
+    {
+      "description": "Pastel",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-07-04T17:59:00.434Z",
+      "id": 5
+    },
+    {
+      "description": "Mensalidade software",
+      "price": 5000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-07-12T18:00:27.904Z",
+      "id": 6
+    },
+    {
+      "description": "Desenvolvimento de aplicativo Delivery",
+      "price": 20000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-08-02T18:02:26.524Z",
+      "id": 7
     }
   ]
 }
